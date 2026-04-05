@@ -1,71 +1,7 @@
 <img width="1826" height="835" alt="Screenshot 2025-11-12 120122" src="https://github.com/user-attachments/assets/1d6691e7-99e5-4e07-a93e-6ca3e9452f65" />
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+This project presents the development of an interactive coding platform built using React, designed to utilize browser-based storage—such as LocalStorage and IndexedDB—as the primary data management solution instead of a traditional backend database. The platform provides users with a seamless environment to write, test, and submit code directly through a React-powered web interface, while all userrelated information, including profiles, code drafts, submissions, and progress records, is stored locally within the browser. To enable secure and language-independent code execution, the system integrates the Judge0 API, a cloud-based sandboxed execution service that processes user code and returns results in real time. By relying on browser storage for data persistence and Judge0 for execution, the platform eliminates the need for complex backend infrastructure, resulting in a lightweight, responsive, and costeffective coding solution. This project demonstrates how modern browser capabilities combined with external execution APIs and React can produce an efficient, user-friendly coding environment suitable for learning, experimentation, and prototype-level development
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Keyword: : React-Based Frontend Interface, Code Editor Module, Browser Storage System (LocalStorage / IndexedDB), User Authentication via Browser Storage, Code Execution Integration (Judge0 API), Submission Handling System, Progress and History Dashboard, API Communication Layer, Problem Management Component, UI/UX Enhancements and Utilities. 
